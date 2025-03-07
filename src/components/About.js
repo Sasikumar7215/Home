@@ -1,8 +1,14 @@
+/* eslint-disable no-lone-blocks */
+/* eslint-disable no-unused-expressions */
 
 import React from 'react';
 import profilePic from '../images/profile.png';
+import { useLocation } from 'react-router-dom';
 
 const About = () => {
+  let location =useLocation();
+
+  {location==='/Home'?null:<About/>}
   return (
     <section className="about">
       <h1>About Me</h1>
