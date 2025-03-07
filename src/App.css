@@ -1,0 +1,75 @@
+body {
+  color: antiquewhite;
+  font-family: Arial, sans-serif;
+  background-image:url("https://e0.pxfuel.com/wallpapers/329/765/desktop-wallpaper-web-design-dark-developer.jpg");
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-family:cursive;
+}
+
+.navbar li {
+  padding: 10px;
+}
+.navbar a:hover{
+  box-shadow: 0px 0px 5px #444;
+  z-index: 2;
+  color:white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgba(235, 170, 170, 0.832);
+  font-weight: bold;
+}
+
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+  margin-left: 85%;
+}
+
+.projects ul, .skills ul {
+  list-style-type: none;
+}
+
+.projects li, .skills li {
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  color: blue;
+}
+.home{
+  display: flex;
+  position:fixed;
+  width: 60rem;
+  height: 5rem;
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 30px;
+  font-family:cursive;
+  /* text-align: center; */
+}
+.home-profile-pic{
+  width: 400px;
+  border-radius: 50%;
+  margin: auto;
+}
