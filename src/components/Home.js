@@ -14,7 +14,9 @@ const Home = () =>{
   <div className="col-md-6">
     <img src={profilePic} alt="Profile" className="home-profile-pic" />
   </div>
+  
   </div>
+  <h6>See My Work in Projects</h6>
     </div>
     </div>
 );
