@@ -4,8 +4,9 @@ const Projects = () => {
   const projectList = [
     {
       name: 'Project 1',
-      description: 'A brief description of your first project.',
-      link: 'https://github.com/yourgithub/project1'
+      description:"It’s an e-commerce website to buy products from the My-Cart app. I have used a dummy API for integration to display products.",
+      Skills:"React.js,Html5,Css3,Javascript,Jsx,Bootstrap,React hooks,Github",
+      link: 'https://sasikumar7215.github.io/products/'
     },
     {
       name: 'Project 2',
