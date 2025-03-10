@@ -5,14 +5,14 @@ const Projects = () => {
     {
       name: 'Project 1',
       description:"It’s an e-commerce website to buy products from the My-Cart app. I have used a dummy API for integration to display products.",
-      Skills:"React.js,Html5,Css3,Javascript,Jsx,Bootstrap,React hooks,Github",
+      skills:"By using React.js,Html5,Css3,Javascript,Jsx,Bootstrap,React hooks,Github",
       link: 'https://sasikumar7215.github.io/products/'
     },
-    {
-      name: 'Project 2',
-      description: 'A brief description of your second project.',
-      link: 'https://github.com/yourgithub/project2'
-    },
+    // {
+    //   name: 'Project 2',
+    //   description: 'A brief description of your second project.',
+    //   link: 'https://github.com/yourgithub/project2'
+    // },
     // Add more projects here
   ];
 
@@ -24,6 +24,7 @@ const Projects = () => {
           <li key={index}>
             <h2>{project.name}</h2>
             <p>{project.description}</p>
+            <p>{project.skills}</p>
             <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
           </li>
         ))}
